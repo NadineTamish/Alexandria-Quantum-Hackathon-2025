@@ -1,0 +1,72 @@
+{
+  "problem_description": {
+    "title": "Emergency Patient Transportation System",
+    "objective": "Minimize total distance traveled while transporting all patients to hospital",
+    "constraints": {
+      "vehicles": 1,
+      "capacity_per_stop": 1,
+      "stops_per_trip": 3,
+      "total_patients": 5
+    }
+  },
+  
+  "locations": {
+    "hospital": {
+      "name": "Central Hospital",
+      "coordinates": {
+        "latitude": 29.99512653425452,
+        "longitude": 31.68462840171934
+      },
+      "type": "destination"
+    },
+    
+    "patients": [
+      {
+        "id": "DT",
+        "name": "Patient DT",
+        "coordinates": {
+          "latitude": 30.000417586266437,
+          "longitude": 31.73960813272627
+        },
+        "priority": "normal"
+      },
+      {
+        "id": "GR",
+        "name": "Patient GR",
+        "coordinates": {
+          "latitude": 30.011344405285193,
+          "longitude": 31.747827362371993
+        },
+        "priority": "normal"
+      },
+      {
+        "id": "R2",
+        "name": "Patient R2",
+        "coordinates": {
+          "latitude": 30.030388325206854,
+          "longitude": 31.669231198639675
+        },
+        "priority": "normal"
+      },
+      {
+        "id": "R3_2",
+        "name": "Patient R3_2",
+        "coordinates": {
+          "latitude": 30.030940768851426,
+          "longitude": 31.688371339937028
+        },
+        "priority": "normal"
+      },
+      {
+        "id": "IT",
+        "name": "Patient IT",
+        "coordinates": {
+          "latitude": 30.01285635906825,
+          "longitude": 31.693811715848444
+        },
+        "priority": "normal"
+      }
+    ]
+  }
+
+}
