@@ -1,7 +1,0 @@
-Distance between patients and route optimization
-
-You include hospital-to-first-patient distances (0.5*dist_matrix[0, i+1]) and patient-to-patient distances (0.3*dist_matrix[i+1, j+1]) as weighted terms in the objective function.
-
-⚠ This is an approximation. QAOA expects the full Hamiltonian as a sum of all interactions; the way you weight the distances is not guaranteed to correctly minimize total route distance.
-
-Missing all permutations/orderings of patients in the trip in the QUBO formulation. Your code computes the “best order” classically after the QAOA result, which is not actually encoded into the QUBO.
