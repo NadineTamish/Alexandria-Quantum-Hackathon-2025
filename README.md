@@ -59,17 +59,17 @@ Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can expl
 ---
 
 ##  Repository Structure
-    notebooks/
+.
+├── notebooks
+│   ├── classical_routing_optimization.ipynb
+│   ├── OptimizationProblemData.json
+│   ├── quantum_solution.ipynb
+│   ├── requirements_classic.txt
+│   └── requirements_quantum.txt
+├── prerequisites
+│   ├── Best__Route_bet_two_corrdinates.ipynb
+│   └── Full_Route_Between_two_coordinates.ipynb
+├── README.md
+└── solutions.json
 
-        ├── ClassicalOptimization.ipynb   # Classical solution 
-        using OSMnx & NetworkX
 
-        ├── QuantumOptimization.ipynb     # Quantum QUBO 
-        formulation with Qiskit
-
-        ├── README.md                     # Project documentation
-
-        ├── requirements.txt              # Python dependencies
-
-        └── .gitignore                    # Ignored files
----

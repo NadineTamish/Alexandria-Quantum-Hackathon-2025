@@ -1,0 +1,856 @@
+[
+    {
+        "Trip1": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 26.79,
+        "Trip2": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip2_Distance": 30.74,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 37.56,
+        "Trip2": "Hospital -> DT -> IT -> Hospital",
+        "Trip2_Distance": 27.33,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.96,
+        "Trip2": "Hospital -> DT -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 37.24,
+        "TotalDistance": 66.2
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> Hospital",
+        "Trip1_Distance": 27.33,
+        "Trip2": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 37.56,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> Hospital",
+        "Trip1_Distance": 27.33,
+        "Trip2": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 37.56,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 26.79,
+        "Trip2": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip2_Distance": 30.74,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 36.82,
+        "Trip2": "Hospital -> DT -> R2 -> Hospital",
+        "Trip2_Distance": 31.41,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> Hospital",
+        "Trip1_Distance": 27.33,
+        "Trip2": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 37.56,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 35.17,
+        "Trip2": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 33.07,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 34.33,
+        "Trip2": "Hospital -> DT -> GR -> Hospital",
+        "Trip2_Distance": 28.77,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.74,
+        "Trip2": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 34.66,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 37.56,
+        "Trip2": "Hospital -> DT -> IT -> Hospital",
+        "Trip2_Distance": 27.33,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip1_Distance": 30.74,
+        "Trip2": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 26.79,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 37.56,
+        "Trip2": "Hospital -> DT -> IT -> Hospital",
+        "Trip2_Distance": 27.33,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.46,
+        "Trip2": "Hospital -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 28.85,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 26.79,
+        "Trip2": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip2_Distance": 30.74,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.21,
+        "Trip2": "Hospital -> GR -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 41.16,
+        "TotalDistance": 66.37
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 34.66,
+        "Trip2": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.74,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 35.17,
+        "Trip2": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 33.07,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> Hospital",
+        "Trip1_Distance": 31.24,
+        "Trip2": "Hospital -> DT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 33.8,
+        "TotalDistance": 65.05
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.96,
+        "Trip2": "Hospital -> DT -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 37.24,
+        "TotalDistance": 66.2
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip1_Distance": 30.74,
+        "Trip2": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 26.79,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 28.85,
+        "Trip2": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip2_Distance": 28.46,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 26.79,
+        "Trip2": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip2_Distance": 30.74,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.74,
+        "Trip2": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 34.66,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 41.16,
+        "Trip2": "Hospital -> DT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.21,
+        "TotalDistance": 66.37
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> Hospital",
+        "Trip1_Distance": 31.24,
+        "Trip2": "Hospital -> DT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 33.8,
+        "TotalDistance": 65.05
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.74,
+        "Trip2": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 34.66,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.46,
+        "Trip2": "Hospital -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 28.85,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 36.82,
+        "Trip2": "Hospital -> DT -> R2 -> Hospital",
+        "Trip2_Distance": 31.41,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 28.85,
+        "Trip2": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip2_Distance": 28.46,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> Hospital",
+        "Trip1_Distance": 27.33,
+        "Trip2": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 37.56,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 35.17,
+        "Trip2": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 33.07,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.21,
+        "Trip2": "Hospital -> GR -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 41.16,
+        "TotalDistance": 66.37
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 37.56,
+        "Trip2": "Hospital -> DT -> IT -> Hospital",
+        "Trip2_Distance": 27.33,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 28.85,
+        "Trip2": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip2_Distance": 28.46,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> Hospital",
+        "Trip1_Distance": 27.33,
+        "Trip2": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 37.56,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 28.85,
+        "Trip2": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip2_Distance": 28.46,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> Hospital",
+        "Trip1_Distance": 27.33,
+        "Trip2": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 37.56,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> Hospital",
+        "Trip1_Distance": 27.33,
+        "Trip2": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 37.56,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.74,
+        "Trip2": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 34.66,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.96,
+        "Trip2": "Hospital -> DT -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 37.24,
+        "TotalDistance": 66.2
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.74,
+        "Trip2": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 34.66,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip1_Distance": 30.74,
+        "Trip2": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 26.79,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 41.16,
+        "Trip2": "Hospital -> DT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.21,
+        "TotalDistance": 66.37
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.21,
+        "Trip2": "Hospital -> GR -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 41.16,
+        "TotalDistance": 66.37
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> Hospital",
+        "Trip1_Distance": 31.24,
+        "Trip2": "Hospital -> DT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 33.8,
+        "TotalDistance": 65.05
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.74,
+        "Trip2": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 34.66,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 34.66,
+        "Trip2": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.74,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 36.82,
+        "Trip2": "Hospital -> DT -> R2 -> Hospital",
+        "Trip2_Distance": 31.41,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.74,
+        "Trip2": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 34.66,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip1_Distance": 30.74,
+        "Trip2": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 26.79,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 26.79,
+        "Trip2": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip2_Distance": 30.74,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 35.17,
+        "Trip2": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 33.07,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip1_Distance": 30.74,
+        "Trip2": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 26.79,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 36.82,
+        "Trip2": "Hospital -> DT -> R2 -> Hospital",
+        "Trip2_Distance": 31.41,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 26.79,
+        "Trip2": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip2_Distance": 30.74,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.46,
+        "Trip2": "Hospital -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 28.85,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 26.79,
+        "Trip2": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip2_Distance": 30.74,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 36.82,
+        "Trip2": "Hospital -> DT -> R2 -> Hospital",
+        "Trip2_Distance": 31.41,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 28.85,
+        "Trip2": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip2_Distance": 28.46,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 34.66,
+        "Trip2": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.74,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 37.56,
+        "Trip2": "Hospital -> DT -> IT -> Hospital",
+        "Trip2_Distance": 27.33,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> Hospital",
+        "Trip1_Distance": 31.24,
+        "Trip2": "Hospital -> DT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 33.8,
+        "TotalDistance": 65.05
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 34.66,
+        "Trip2": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.74,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 26.79,
+        "Trip2": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip2_Distance": 30.74,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> Hospital",
+        "Trip1_Distance": 31.24,
+        "Trip2": "Hospital -> DT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 33.8,
+        "TotalDistance": 65.05
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 37.56,
+        "Trip2": "Hospital -> DT -> IT -> Hospital",
+        "Trip2_Distance": 27.33,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.46,
+        "Trip2": "Hospital -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 28.85,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 35.17,
+        "Trip2": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 33.07,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 37.24,
+        "Trip2": "Hospital -> GR -> R3_2 -> Hospital",
+        "Trip2_Distance": 28.96,
+        "TotalDistance": 66.2
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 37.24,
+        "Trip2": "Hospital -> GR -> R3_2 -> Hospital",
+        "Trip2_Distance": 28.96,
+        "TotalDistance": 66.2
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip1_Distance": 34.66,
+        "Trip2": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.74,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 34.33,
+        "Trip2": "Hospital -> DT -> GR -> Hospital",
+        "Trip2_Distance": 28.77,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> DT -> IT -> Hospital",
+        "Trip1_Distance": 27.33,
+        "Trip2": "Hospital -> GR -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 37.56,
+        "TotalDistance": 64.88
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 33.07,
+        "Trip2": "Hospital -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 35.17,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> Hospital",
+        "Trip1_Distance": 25.74,
+        "Trip2": "Hospital -> DT -> GR -> R2 -> Hospital",
+        "Trip2_Distance": 34.66,
+        "TotalDistance": 60.4
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 41.16,
+        "Trip2": "Hospital -> DT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.21,
+        "TotalDistance": 66.37
+    },
+    {
+        "Trip1": "Hospital -> DT -> R2 -> Hospital",
+        "Trip1_Distance": 31.41,
+        "Trip2": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip2_Distance": 36.82,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.46,
+        "Trip2": "Hospital -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 28.85,
+        "TotalDistance": 57.31
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> Hospital",
+        "Trip1_Distance": 28.77,
+        "Trip2": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 34.33,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 41.16,
+        "Trip2": "Hospital -> DT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.21,
+        "TotalDistance": 66.37
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> Hospital",
+        "Trip1_Distance": 31.24,
+        "Trip2": "Hospital -> DT -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 33.8,
+        "TotalDistance": 65.05
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip1_Distance": 30.74,
+        "Trip2": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 26.79,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> IT -> Hospital",
+        "Trip1_Distance": 36.82,
+        "Trip2": "Hospital -> DT -> R2 -> Hospital",
+        "Trip2_Distance": 31.41,
+        "TotalDistance": 68.23
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.96,
+        "Trip2": "Hospital -> DT -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 37.24,
+        "TotalDistance": 66.2
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip1_Distance": 30.74,
+        "Trip2": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 26.79,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip1_Distance": 30.74,
+        "Trip2": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 26.79,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> DT -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 33.8,
+        "Trip2": "Hospital -> GR -> IT -> Hospital",
+        "Trip2_Distance": 31.24,
+        "TotalDistance": 65.05
+    },
+    {
+        "Trip1": "Hospital -> GR -> IT -> R2 -> Hospital",
+        "Trip1_Distance": 41.16,
+        "Trip2": "Hospital -> DT -> R3_2 -> Hospital",
+        "Trip2_Distance": 25.21,
+        "TotalDistance": 66.37
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 34.33,
+        "Trip2": "Hospital -> DT -> GR -> Hospital",
+        "Trip2_Distance": 28.77,
+        "TotalDistance": 63.11
+    },
+    {
+        "Trip1": "Hospital -> DT -> GR -> IT -> Hospital",
+        "Trip1_Distance": 30.74,
+        "Trip2": "Hospital -> R3_2 -> R2 -> Hospital",
+        "Trip2_Distance": 26.79,
+        "TotalDistance": 57.52
+    },
+    {
+        "Trip1": "Hospital -> GR -> R3_2 -> Hospital",
+        "Trip1_Distance": 28.96,
+        "Trip2": "Hospital -> DT -> IT -> R2 -> Hospital",
+        "Trip2_Distance": 37.24,
+        "TotalDistance": 66.2
+    },
+    {
+        "Trip1": "Hospital -> IT -> R3_2 -> R2 -> Hospital",
+        "Trip1_Distance": 34.33,
+        "Trip2": "Hospital -> DT -> GR -> Hospital",
+        "Trip2_Distance": 28.77,
+        "TotalDistance": 63.11
+    }
+]
