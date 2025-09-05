@@ -1,8 +1,15 @@
 #  Smart Traffic Optimization in the New Capital
 
 ## Problem Description
-Efficient traffic management in new cities is crucial for sustainability, fuel-efficient driving, and work-life balance.  
-In emergency medical situations, route optimization becomes even more critical: every second saved can mean saving a life.
+Efficient traffic management in new cities is not just about reducing congestion, it directly affects sustainability, fuel-efficient driving, and the quality of everyday life. For residents, smooth traffic means less time spent commuting, lower stress, and more time for work, family, and personal pursuits.
+
+In emergency medical situations, the stakes are even higher: every second saved in ambulance travel can mean saving a life. Effective route optimization in such scenarios ensures that patients reach hospitals quickly, directly supporting the UN Sustainable Development Goals (SDGs):
+
+SDG 3 – Good Health and Well-Being, by ensuring timely access to healthcare.
+
+SDG 11 – Sustainable Cities and Communities, through smarter, safer urban mobility.
+
+SDG 13 – Climate Action, by reducing fuel consumption and emissions through optimized travel.
 
 ### Scenario: Emergency Patient Transportation
 You are tasked with transporting **5 patients** to a central hospital using **1 ambulance**.
@@ -59,6 +66,7 @@ Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can expl
 ---
 
 ##  Repository Structure
+```bash
 .
 ├── notebooks
 │   ├── classical_routing_optimization.ipynb
@@ -71,5 +79,9 @@ Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can expl
 │   └── Full_Route_Between_two_coordinates.ipynb
 ├── README.md
 └── solutions.json
+└── Technical_Report.pdf
+
+```
+
 
 
