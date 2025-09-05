@@ -77,8 +77,10 @@ Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can expl
 ├── prerequisites
 │   ├── Best__Route_bet_two_corrdinates.ipynb
 │   └── Full_Route_Between_two_coordinates.ipynb
+├── quantum_statistics
+│   ├── quantum_solution.ipynb
+│   └── solutions.json
 ├── README.md
-└── solutions.json
 └── Technical_Report.pdf
 
 ```
