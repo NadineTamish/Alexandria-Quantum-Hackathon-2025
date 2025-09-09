@@ -108,6 +108,7 @@ Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can expl
 ##  Repository Structure
 ```bash
 .
+├── LICENSE
 ├── notebooks
 │   ├── classical_routing_optimization.ipynb
 │   ├── OptimizationProblemData.json
@@ -121,6 +122,7 @@ Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can expl
 │   ├── quantum_solution.ipynb
 │   └── solutions.json
 ├── README.md
+├── Smart Traffic Optimization In the New Capital.pptx
 └── Technical_Report.pdf
 
 ```
