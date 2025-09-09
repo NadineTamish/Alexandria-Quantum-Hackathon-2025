@@ -89,7 +89,7 @@ We encode the above into a `QuadraticProgram` and convert it to QUBO with
 Naively, the model requires **30 qubits**.
 To make execution feasible:
 
-* We **drop the patient dimension** inside the binary variables:
+* We **drop the stop dimension** inside the binary variables:
 
   $x_{i,j,t} \;\mapsto\; y_{i,t}$
 
