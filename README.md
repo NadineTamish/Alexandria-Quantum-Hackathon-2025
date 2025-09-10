@@ -82,11 +82,11 @@ where $\(d(a,b)\)$ is the distance between two locations.
 ### Qiskit Implementation
 
 We encode the above into a `QuadraticProgram` and convert it to QUBO with  
-`QuadraticProgramToQubo()`. The QUBO is solved using **QAOA**:
+`QuadraticProgramToQubo()`. The QUBO is solved using **QAOA** (Check prerequisites/fully\_quantum\_approach.py)
 
 ### Variable Reduction
 
-Naively, the model requires **30 qubits**.
+The model requires **30 qubits**.
 To make execution feasible:
 
 * We **drop the stop dimension** inside the binary variables:
@@ -117,7 +117,8 @@ Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can expl
 │   └── requirements_quantum.txt
 ├── prerequisites
 │   ├── Best__Route_bet_two_corrdinates.ipynb
-│   └── Full_Route_Between_two_coordinates.ipynb
+│   ├── Full_Route_Between_two_coordinates.ipynb
+│   └── fully_quantum_approach.py
 ├── quantum_statistics
 │   ├── quantum_solution.ipynb
 │   └── solutions.json
