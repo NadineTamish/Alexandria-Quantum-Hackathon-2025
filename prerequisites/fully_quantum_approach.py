@@ -45,7 +45,8 @@ for i in range(n_locations):
 latex_str = r"\begin{bmatrix}" + \
             r"\\".join([" & ".join(map(str,row)) for row in dist_matrix]) + \
             r"\end{bmatrix}"
-display(Math(latex_str))
+# uncomment iff u r using notebooks
+#display(Math(latex_str))
 
 
 qp = QuadraticProgram(name="Ambulance_Routing")
