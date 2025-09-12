@@ -47,35 +47,7 @@ This makes classical approaches computationally expensive.
 To scale beyond small instances, we reformulate the routing problem as a **Quadratic Unconstrained Binary Optimization (QUBO)** problem.
 
 ### QUBO Formulation
-
-- **Binary variables**
-
-$x_{i,j,t} \in \{0,1\}, \quad i=1..5,\; j=1..3,\; t=1,2$
-
-where $\(x_{i,j,t} = 1\)$ if patient $\(i\)$ is served at stop $\(j\)$ of trip $\(t\)$, and $\(0\)$ otherwise.  
-This yields $\(5 \times 3 \times 2 = 30\)$ binary variables (qubits).
-
----
-
-- **Constraints (encoded as penalties)**
-
-1. **Each patient visited once**
-
-$\sum_{j=1}^3 \sum_{t=1}^2 x_{i,j,t} = 1 \quad \forall i$
-
-2. **Total patients = 5**
-(Already enforced by $`\quad \forall i`$ .)
-
-4. **Trips limited to ≤ 3 stops**  (Already enforced by stop indexing.)
-
----
-
-- **Objective function**  
-Minimize total travel distance:
-
-$D = \sum_t \Big( d(H,s_1) \, x_{i_1,0,t} + d(s_1,s_2)\, x_{i_0,1,t} x_{i_2,1,t} + d(s_2,s_3)\, x_{i_2,1,t} x_{i_3,2,t} + d(s_3,H)\, x_{i_3,2,t} \Big)$
-
-where $\(d(a,b)\)$ is the distance between two locations.
+![qubo\_fromulation.png](qubo_formulation.png)
 
 ---
 
