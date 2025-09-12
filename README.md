@@ -100,8 +100,10 @@ This hybrid scheme balances **quantum search** with **classical validation**, ma
 
 
 ### Why Quantum?
-Classical solvers must check each possible route partition, which grows combinatorially.  
-Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can explore many route combinations **in parallel**, offering potential speedups.
+*REVIEW: Needs revision — the original claim about "parallel" exploration and guaranteed speedups is misleading.*
+
+~~Classical solvers must check each possible route partition, which grows combinatorially.~~
+~~Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can explore many route combinations **in parallel**, offering potential speedups.~~
 
 ---
 
