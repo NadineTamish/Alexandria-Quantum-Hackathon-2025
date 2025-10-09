@@ -70,9 +70,6 @@ To make execution feasible:
 
 This hybrid scheme balances **quantum search** with **classical validation**, making it more scalable.
 
-Sure 👍 — here’s the exact **code block snippet** (in Markdown format) that you can paste directly into your `README.md` to document the new `docs/` directory:
-
-
 ## Documentation
 
 ```bash
