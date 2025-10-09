@@ -12,7 +12,7 @@ SDG 11 – Sustainable Cities and Communities, through smarter, safer urban mobi
 SDG 13 – Climate Action, by reducing fuel consumption and emissions through optimized travel.
 
 ### Scenario: Emergency Patient Transportation
-You are tasked with transporting **5 patients** to a central hospital using **1 ambulance**.
+We need to transport **5 patients** to a central hospital using **1 ambulance**.
 
 #### Constraints
 - The ambulance can make **multiple trips**.
@@ -23,7 +23,7 @@ You are tasked with transporting **5 patients** to a central hospital using **1 
 Find ambulance routes that **minimize the total travel distance** while ensuring all patients are transported.
 
 #### Data
-- Input file: [`OptimizationProblemData.json`](https://drive.google.com/file/d/1XVoEXkX3xfltEsoP1O_Oyi6IdpDJe_ez/view?usp=sharing)
+- Input file: [`OptimizationProblemData.json`](./notebooks/OptimizationProblemData.json)
 - Contains:
   - Hospital location (latitude/longitude)
   - Patient locations (latitude/longitude)
@@ -47,7 +47,7 @@ This makes classical approaches computationally expensive.
 To scale beyond small instances, we reformulate the routing problem as a **Quadratic Unconstrained Binary Optimization (QUBO)** problem.
 
 ### QUBO Formulation
-![qubo\_fromulation.png](qubo_formulation.png)
+![qubo\_fromulation.png](./quantum/qubo_formulation.png)
 
 ---
 
@@ -56,7 +56,7 @@ To scale beyond small instances, we reformulate the routing problem as a **Quadr
 We encode the above into a `QuadraticProgram` and convert it to QUBO with  
 `QuadraticProgramToQubo()`. The QUBO is solved using **QAOA** (Check prerequisites/fully\_quantum\_approach.py)
 
-### Variable Reduction
+### Hybrid Approach (Variable Reduction) 
 
 The model requires **30 qubits**.
 To make execution feasible:
@@ -70,18 +70,30 @@ To make execution feasible:
 
 This hybrid scheme balances **quantum search** with **classical validation**, making it more scalable.
 
+Sure 👍 — here’s the exact **code block snippet** (in Markdown format) that you can paste directly into your `README.md` to document the new `docs/` directory:
 
-### Why Quantum?
-*REVIEW: Needs revision — the original claim about "parallel" exploration and guaranteed speedups is misleading.*
 
-~~Classical solvers must check each possible route partition, which grows combinatorially.~~
-~~Quantum optimization algorithms (e.g., **QAOA**, **Quantum Annealing**) can explore many route combinations **in parallel**, offering potential speedups.~~
+## Documentation
+
+```bash
+
+docs/
+├── Technical_Report.pdf
+└── Smart Traffic Optimization In the New Capital.pptx
+```
+The `docs/` directory contains all project documentation and presentation materials:
+- **Technical_Report.pdf** – detailed technical report covering algorithms, implementation, and results.  
+- **Smart Traffic Optimization In the New Capital.pptx** – presentation summarizing the project’s motivation, methods, and findings.
+
 
 ---
 
 ##  Repository Structure
 ```bash
-.
+
+├── docs
+│   ├── Smart Traffic Optimization In the New Capital.pptx
+│   └── Technical_Report.pdf
 ├── LICENSE
 ├── notebooks
 │   ├── classical_routing_optimization.ipynb
@@ -93,12 +105,13 @@ This hybrid scheme balances **quantum search** with **classical validation**, ma
 │   ├── Best__Route_bet_two_corrdinates.ipynb
 │   ├── Full_Route_Between_two_coordinates.ipynb
 │   └── fully_quantum_approach.py
-├── quantum_statistics
-│   ├── quantum_solution.ipynb
-│   └── solutions.json
-├── README.md
-├── Smart Traffic Optimization In the New Capital.pptx
-└── Technical_Report.pdf
+├── quantum
+│   ├── fully_quantum_approach.py
+│   ├── quantum_statistics
+│   │   ├── quantum_solution.ipynb
+│   │   └── solutions.json
+│   └── qubo_formulation.png
+└── README.md
 
 ```
 
