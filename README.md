@@ -49,21 +49,20 @@ To scale beyond small instances, we reformulate the routing problem as a **Quadr
 ### QUBO Formulation
 ![qubo\_fromulation.png](./quantum/qubo_formulation.png)
 
----
-
 ### Qiskit Implementation
 
 We encode the above into a `QuadraticProgram` and convert it to QUBO with  
-`QuadraticProgramToQubo()`. The QUBO is solved using **QAOA** (Check prerequisites/fully\_quantum\_approach.py)
+`QuadraticProgramToQubo()`. The QUBO is solved using **QAOA** (Check quantum/fully\_quantum\_approach.py)
 
-### Hybrid Approach (Variable Reduction) 
+---
+## Hybrid Approach (Variable Reduction) 
 
 The model requires **30 qubits**.
 To make execution feasible:
 
 * We **drop the stop dimension** inside the binary variables:
 
-  $x_{i,j,t} \;\mapsto\; y_{i,t}$
+  $x_{i,j,t} \mapsto y_{i,t}$
 
   reducing #qubits from $30 \to 10$.
 * A **classical post-processing layer** filters out invalid assignments
