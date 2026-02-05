@@ -84,9 +84,19 @@ The `docs/` directory contains all project documentation and presentation materi
 
 ---
 
+## Running the Quantum Solver with Docker
+To ensure a consistent, portable, and dependency-safe environment, the quantum optimization solver can be executed using Docker. This eliminates the need to manually install Python, Qiskit, or scientific libraries.
+
+```bash
+docker build -t alex_quantum .
+docker run --rm alex_quantum
+```
+---
+
 ##  Repository Structure
 ```bash
-
+.
+├── Dockerfile
 ├── docs
 │   ├── Smart Traffic Optimization In the New Capital.pptx
 │   └── Technical_Report.pdf
@@ -99,8 +109,7 @@ The `docs/` directory contains all project documentation and presentation materi
 │   └── requirements_quantum.txt
 ├── prerequisites
 │   ├── Best__Route_bet_two_corrdinates.ipynb
-│   ├── Full_Route_Between_two_coordinates.ipynb
-│   └── fully_quantum_approach.py
+│   └── Full_Route_Between_two_coordinates.ipynb
 ├── quantum
 │   ├── fully_quantum_approach.py
 │   ├── quantum_statistics
